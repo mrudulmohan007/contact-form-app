@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "283320449184",
+    "project_id": "save-contact-app",
+    "storage_bucket": "save-contact-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283320449184:android:2b87c89368e9cf911ff1c5",
+        "android_client_info": {
+          "package_name": "com.example.contact_form_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNfNnqnp7AZnDWh069dNR15IhPZCToz24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
