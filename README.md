@@ -12,29 +12,29 @@ The Contact Form App is a Flutter-based mobile application that allows users to 
 
 ## Firebase Cloud Firestore Integration
 
-- The app utilizes Firebase Cloud Firestore, a NoSQL document database, to store and manage contact information.
+-> The app utilizes Firebase Cloud Firestore, a NoSQL document database, to store and manage contact information.
 
-- Firestore collections are used to store contact data. When a user submits the form, the data is added to the "contacts" collection in Firestore.
+-> Firestore collections are used to store contact data. When a user submits the form, the data is added to the "contacts" collection in Firestore.
 
 ## Code Explanation
 
 - The code is organized into different files:
 
-    - `main.dart`: The main entry point of the app, where Firebase is initialized.
+    -> `main.dart`: The main entry point of the app, where Firebase is initialized.
 
-    - `contact_screen.dart`: Defines the UI for the contact form, handles form submission, and includes basic text field validation. It includes error handling for 
+    -> `contact_screen.dart`: Defines the UI for the contact form, handles form submission, and includes basic text field validation. It includes error handling for 
     empty fields and displays a SnackBar for user feedback.
 
-    - `success_screeen.dart`: If any one of the fields are empty the data wont be submitted and snackbar will be displayed.Else the data will be succesfully 
+    -> `success_screeen.dart`: If any one of the fields are empty the data wont be submitted and snackbar will be displayed.Else the data will be succesfully 
    submitted and will be navigated to success screen there it will show 'successfully added the contacts!"
 
     
-  - The `dispose` method is used to clean up resources, specifically TextEditingControllers, to prevent memory leaks when the widget is removed from the screen.
+    ->The `dispose` method is used to clean up resources, specifically TextEditingControllers, to prevent memory leaks when the widget is removed from the screen.
 
-  - Exception handling is implemented in the `submit` method of the `contact_screen.dart` file to ensure that all form fields are filled before submitting 
+  -> Exception handling is implemented in the `submit` method of the `contact_screen.dart` file to ensure that all form fields are filled before submitting 
    data to Firestore.
 
-- An alert dialog is shown in case of Firestore operation errors, displaying the error message to the user.
+-> An alert dialog is shown in case of Firestore operation errors, displaying the error message to the user.
 
 ## Usage
 
@@ -56,8 +56,8 @@ The Contact Form App is a Flutter-based mobile application that allows users to 
 
 9. Explore the code comments for a deeper understanding of the app's functionality and structure.
 
-## Notes
+### Notes
 
-This is a simplified example of a Contact Form app. Depending on your requirements, you may want to add more features, implement further error handling, and enhance the user interface. I will add this to in the near future.
+> This is a simplified example of a Contact Form app. Depending on your requirements, you may want to add more features, implement further error handling, and enhance the user interface. I will add this to in the near future.
 
-Feel free to reach out if you have any questions or need further assistance with this app.
+> Feel free to reach out if you have any questions or need further assistance with this app.
