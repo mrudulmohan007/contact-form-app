@@ -1,4 +1,4 @@
-## contact-form-app
+## contact-form-app--
 
 The Contact Form App is a Flutter-based mobile application that allows users to submit contact information, including Name, Email, Phone Number, and Address. The app demonstrates basic data input validation and integrates Firebase Cloud Firestore for data storage. Additionally, it implements exception handling to provide a smooth user experience.
 
@@ -16,7 +16,7 @@ The Contact Form App is a Flutter-based mobile application that allows users to 
 
 -> Firestore collections are used to store contact data. When a user submits the form, the data is added to the "contacts" collection in Firestore.
 
-## Code Explanation-
+## Code Explanation--
 
 - The code is organized into different files:
 
@@ -36,7 +36,7 @@ The Contact Form App is a Flutter-based mobile application that allows users to 
 
 -> An alert dialog is shown in case of Firestore operation errors, displaying the error message to the user.
 
-## Usage
+## Usage--
 
 1. Ensure you have Flutter and Firebase set up in your development environment.
 
@@ -56,7 +56,7 @@ The Contact Form App is a Flutter-based mobile application that allows users to 
 
 9. Explore the code comments for a deeper understanding of the app's functionality and structure.
 
-### Notes-
+### Notes--
 
 > This is a simplified example of a Contact Form app. Depending on your requirements, you may want to add more features, implement further error handling, and enhance the user interface. I will add this to in the near future.
 
