@@ -1,10 +1,10 @@
 ## contact-form-app--
 
-The Contact Form App is a Flutter-based mobile application that allows users to submit contact information, including Name, Email, Phone Number, and Address. The app demonstrates basic data input validation and integrates Firebase Cloud Firestore for data storage. Additionally, it implements exception handling to provide a smooth user experience
+The Contact Form App is a Flutter-based mobile application that allows users to submit contact information, including Name, Email, Phone Number, and Address. The app demonstrates basic data input validation and integrates Firebase Cloud Firestore for data storage. Additionally, it implements exception handling to provide a smooth user experience.
 
 ## Basic Working->
 
-1. **User-Friendly Form**: The app provides a user-friendly form with fields for Name, Email, Phone Number, and Address.
+1. **User-Friendly Form**: The app provides a user-friendly form with fields for Name, Email, Phone Number, and Address
 
 2. **Form Submission**: Users can submit the form, and the data is sent and stored in a Firebase Cloud Firestore database.
 
@@ -25,11 +25,11 @@ The Contact Form App is a Flutter-based mobile application that allows users to 
     -> `contact_screen.dart`: Defines the UI for the contact form, handles form submission, and includes basic text field validation. It includes error handling for 
     empty fields and displays a SnackBar for user feedback.
 
-    -> `success_screeen.dart`: If any one of the fields are empty the data wont be submitted and snackbar will be displayed.Else the data will be succesfully 
+    -> `success_screeen.dart`:  If any one of the fields are empty the data wont be submitted and snackbar will be displayed.Else the data will be succesfully 
    submitted and will be navigated to success screen there it will show 'successfully added the contacts!"
 
     
-    ->The `dispose` method is used to clean up resources, specifically TextEditingControllers, to prevent memory leaks when the widget is removed from the screen.
+    ->The `dispose` method is used to clean up resources, specifically TextEditingControllers, to prevent memory leaks when the widget is removed from the screen
 
   -> Exception handling is implemented in the `submit` method of the `contact_screen.dart` file to ensure that all form fields are filled before submitting 
    data to Firestore.
